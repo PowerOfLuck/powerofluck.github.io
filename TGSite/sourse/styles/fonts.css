@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'TildaSans';
-    src: url('sourse/fonts/TildaSans/TildaSans-VF_TTF_Web/TildaSans-VF.woff2') format('woff2'),
-         url('sourse/fonts/TildaSans/TildaSans-VF_TTF_Web/TildaSans-VF.woff') format('woff'),
-         url('sourse/fonts/TildaSans/TildaSans-VF_TTF_Web/TildaSans-VF.ttf') format('truetype');
-    /* Дополнительные форматы шрифта, если есть */
-    /* Например: url('путь_к_файлу/TildaSans.ttf') format('truetype') */
-    /* Указывайте правильные пути к файлам шрифта в соответствии с вашей папкой шрифтов */
-  }
