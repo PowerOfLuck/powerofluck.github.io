@@ -3,7 +3,7 @@ body {
 
 }
 .all-overflow {
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 /* Навбар */
@@ -45,7 +45,7 @@ body {
     font-weight: bold;
     color: #0000ff;
     border-radius: 50px; /* Устанавливаем радиус для создания овальной формы */
-    width: 198px; /* Ширина кнопки */
+    width: 158px; /* Ширина кнопки */
     height: 55px; /* Высота кнопки */
     
 }
@@ -64,7 +64,7 @@ body {
     display: block;
     box-sizing: content-box;
     height: 760px;
-    margin-left: 10px;
+    
 
     /* если содержимое больше, оно будет вылезать за границы */
     overflow: visible;
@@ -80,14 +80,14 @@ body {
 .text-block {
     top: 195px !important;
     left: calc(50% - 600px + 20px) !important;
-    width: 709px;
+    width: 809px;
 
     position: absolute;
 }
 .text-block>p {
 
     color: #ffffff;
-    font-size: 52px;
+    font-size: 50px;
     font-family: 'Raleway',Arial,sans-serif;
     line-height: 1.7;
     font-weight: 700;
@@ -247,11 +247,23 @@ body {
 
 /* Блуры первого блока */
 
-.f-blur1 {
-    z-index: 0;
-
+.f-blur-block {
     left: calc(50% - 475px + 28px + 20px + 22px);
-    top: 100px;
+    top: 20px;
+
+    height: 920px;
+    width: 1320px;    
+
+    overflow: hidden;
+
+    position: absolute;
+}
+
+.f-blur1 {
+    z-index: 1;
+
+    overflow: hidden;
+    
     width: 1620px;    
     
 
@@ -302,22 +314,30 @@ body {
 /* Второй блок */
 
 .s-text {
+
+    top: 45px;
+    left: calc(50% - 759px + 28px + 130px + 15px);
+    width: 1214px;
+
+    position: absolute; 
+
+}
+
+.s-text>p {
+    z-index: 2;
     color: #5c5c5c;
     font-size: 45px;
     font-family: 'Raleway',Arial,sans-serif;
     font-weight: 700;
 
-    top: 68px;
-    left: 361.5px;
-    width: 1214px;
-
-    position: absolute; 
+    
 }
 
 /* квадраты второго блока */
 
 .s-block1 {
-    left: 369.5px;
+    left: calc(50% - 760px + 28px + 130px + 15px);
+
     top: 1115px;  
     position: absolute;    
 }
@@ -375,7 +395,9 @@ body {
 
 
 .s-block2 {
-    left: 776px;
+
+    left: calc(50% - 349px + 28px + 130px + 15px);
+
     top: 1115px;  
     position: absolute;    
 }
@@ -433,7 +455,8 @@ body {
 
 
 .s-block3 {
-    left: 1174px;
+    left: calc(50% - 340px + 28px + 537px + 15px);
+
     top: 1115px;  
     position: absolute;    
 }
@@ -502,8 +525,9 @@ body {
 .th-block {
     
     height: 440px;
-    width: 100%;
     z-index: 1;
+
+    left: calc(50% - 1125px + 28px + 130px + 15px);
     
 
     background-color: #5051f9;
@@ -511,10 +535,12 @@ body {
 }
 
 .th-text-block>p {
-    top: 220px;
-    left: 361.5px;
+    top: 190px;
+    left: 341.5px;
     width: 1214px;
 
+    text-align: center;
+    
 
     font-size: 45px;
     font-family: 'Raleway',Arial,sans-serif;
@@ -550,15 +576,28 @@ body {
     position: absolute;
 }
 
-.th-pic-1>img {
-    left: -808.5px;
-    top: -115px;
-    width: 1645px;
-    transform: rotate(21deg);
+.th-pic-1 {
+    
 
+    height: 900px;
+    width: 1345px;
+
+    overflow: hidden;
 
     position: absolute;
 }
+.th-pic-1>img {
+
+    left: -808.5px;
+    top: -115px;
+
+    width: 1645px;
+    transform: rotate(21deg);
+
+    position: absolute;
+}
+
+
 .th-pic-2>img {
     left: 265.5px;
     top: 528px;
@@ -704,6 +743,7 @@ body {
     border-style: solid;
     
 }
+
 .th-oval-button:hover {
     background-color: #ffffff !important;
     color: #000000;
@@ -713,7 +753,7 @@ body {
 
 .t-button1>div {
     z-index: 4;
-    width: 221px;
+    width: 161px;
     left: 311.5px;
     top: 207px;
     height: 40px;
@@ -776,7 +816,7 @@ body {
 }
 
 .t-button3>div {
-    width: 260px;
+    width: 160px;
     left: 1406.5px;
     top: 561px;
     height: 40px;
@@ -803,8 +843,8 @@ body {
 
 
 .t-button4>div {
-    width: 220px;
-    left: 1337.5px;
+    width: 245px;
+    left: 1342.5px;
     top: 615px;
     height: 40px;
 
@@ -818,7 +858,7 @@ body {
 .t-button4>p {
     top: 616px;
     left: 1352.5px;
-    width: 190px;
+    width: 400px;
     color: #ffffff;
     font-size: 25px;
     font-family: 'Raleway',Arial,sans-serif;
@@ -830,7 +870,7 @@ body {
 
 
 .t-button5>div {
-    width: 283px;
+    width: 324px;
     left: 1348.5px;
     top: 508px;
     height: 40px;
@@ -844,7 +884,7 @@ body {
 .t-button5>p {
     top: 510px;
     left: 1361.5px;
-    width: 286px;
+    width: 400px;
     color: #ffffff;
     font-size: 25px;
     font-family: 'Raleway',Arial,sans-serif;
@@ -854,10 +894,20 @@ body {
     position: absolute;
 }
 
-
-.t-blur-l>img {
+.t-blur-l {
     left: 511.5px;
     top: 160px;
+
+    overflow: hidden;
+
+    height: 900px;
+    width: 1377px;
+
+    position: absolute;
+}
+
+.t-blur-l>img {
+    
     width: 1645px;
 
     transform: rotate(21deg);    
@@ -865,14 +915,26 @@ body {
     position: absolute;
 }
 
+
+
 .background-footer {
     height: 230px;
     width: 100%;
-
+    
     background-color: #302e2e;
+
 
     position: relative;
 }
+
+.footer-between-layer {
+
+    left: calc(50% - 1125px + 28px + 130px + 15px);
+
+
+    position: absolute;
+}
+
 
 .foot-text1 {
     top: 104px;
@@ -892,7 +954,7 @@ body {
     font-weight: 900;
 }
 .foot-pic1 {
-    left: 882.5px;
+    left: 802.5px;
     top: 73px;
     width: 81px;
     
@@ -940,12 +1002,12 @@ body {
 
 .foot-text4 {
     top: 110px;
-    left: 1004.5px;
+    left: 924.5px;
     width: 167px;
 
     position: absolute;
 }
-.foot-text4>p {
+.foot-text4>a {
     color: #b3b3b3;
     font-size: 18px;
     font-family: 'RalewayExtraLight',Arial,sans-serif;
@@ -956,12 +1018,12 @@ body {
 
 .foot-text5 {
     top: 111px;
-    left: 1191.5px;
+    left: 1111.5px;
     width: 162px;
 
     position: absolute;
 }
-.foot-text5>p {
+.foot-text5>a {
     color: #b3b3b3;
     font-size: 18px;
     font-family: 'RalewayExtraLight',Arial,sans-serif;
@@ -971,12 +1033,12 @@ body {
 
 .foot-text6 {
     top: 110px;
-    left: 1379.5px;
+    left: 1299.5px;
     width: 140px;
 
     position: absolute;
 }
-.foot-text6>p {
+.foot-text6>a {
     color: #b3b3b3;
     font-size: 18px;
     font-family: 'RalewayExtraLight',Arial,sans-serif;
@@ -1030,3 +1092,4 @@ body {
 .help-btn:hover {
     background-color: #5051f9;
   }
+
