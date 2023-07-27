@@ -1,0 +1,1123 @@
+body {
+    background-color: #5051f9;
+
+}
+.all-overflow {
+    overflow: hidden;
+}
+
+/* Навбар */
+.transparent-navbar {
+    /* непрозрачность панели */
+    background-color: transparent !important;
+}
+.custom-width-container {
+    /* ширина навбара */
+    width: 95%;
+    z-index: 4;
+}
+
+.navbar-brand {
+    font-size: 26px;
+    color: white !important;
+    font-family: 'TildaSansBlack',Arial,sans-serif;
+    font-weight: 800;
+
+}
+.nav-link {
+    font-size: 20px;
+    font-weight: 400 !important;
+
+    color: white !important;
+    font-family: 'TildaSansRegular',Arial,sans-serif;
+    
+}
+.oval-button {
+    z-index: 5;
+
+    /* Изменения в тексте */
+    font-size: 14px;
+    font-family: 'Arial',Arial,sans-serif;
+    font-weight: 600;
+
+    /* Регистрационная кнопка */
+    background-color: white !important;
+    font-weight: bold;
+    color: #0000ff;
+    border-radius: 50px; /* Устанавливаем радиус для создания овальной формы */
+    width: 158px; /* Ширина кнопки */
+    height: 55px; /* Высота кнопки */
+    
+}
+.oval-button:hover {
+    background-color: #0000c2 !important;
+  }
+
+
+
+/****************** 
+ Первый блок 
+
+******************/
+
+.first-box {
+    display: block;
+    box-sizing: content-box;
+    height: 760px;
+    
+
+    /* если содержимое больше, оно будет вылезать за границы */
+    overflow: visible;
+    /*  top, bottom, left и right элементам */
+    position: relative;  
+}
+
+.fbox-position {
+    left: calc(50% - 445px + 28px + 400px + 20px);
+    position: absolute;
+}
+
+.text-block {
+    top: 195px !important;
+    left: calc(50% - 600px + 20px) !important;
+    width: 809px;
+
+    position: absolute;
+}
+.text-block>p {
+
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Raleway',Arial,sans-serif;
+    line-height: 1.7;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+
+}
+
+.f-description-block {
+
+    top: 371px;
+    left: calc(50% - 600px + 29px);
+    width: 586px;
+
+
+    position: absolute;
+}
+.f-description-block>p {
+    color: #e3e3e3;
+    font-size: 25px;
+    font-family: 'TildaSansRegular',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+
+}
+
+
+/* Кнопки первого блока */
+
+.f-button-reg {
+    top: 490px;
+    left: calc(50% - 600px + 17px);
+    width: 215px;
+    height: 55px;
+    
+    /* z-index размещает элемент поверх другого */
+    z-index: 3;
+    position: absolute;
+}
+.f-oval-reg-button {
+    z-index: 4;
+    /* Изменения в тексте */
+    font-size: 14px;
+    font-family: 'Arial',Arial,sans-serif;
+    font-weight: 600;
+
+    /* Кнопка */
+    background-color: white !important;
+    font-weight: bold;
+    color: #0000ff;
+    border-radius: 50px; /* Устанавливаем радиус для создания овальной формы */
+    width: 220px; /* Ширина кнопки */
+    height: 55px; /* Высота кнопки */
+    
+    /* прозрачные границы */
+    border-color: transparent; 
+    border-style: solid;
+}
+.f-oval-reg-button:hover {
+    background-color: #0000c2 !important;
+}
+
+.f-button-demo {
+    top: 490px;
+    left: calc(50% - 445px + 35px);
+    width: 218px;
+    height: 55px;
+
+    z-index: 2;
+    position: absolute;
+}
+.f-oval-demo-button {
+    z-index: 5;
+
+    /* Изменения в тексте */
+    font-size: 14px;
+    font-family: 'Arial',Arial,sans-serif;
+    font-weight: 600;
+
+    /* Кнопка */
+    background-color: #44e63e !important;
+    font-weight: bold;
+    color: #5051f9;
+    border-radius: 50px; /* Устанавливаем радиус для создания овальной формы */
+    width: 220px; /* Ширина кнопки */
+    height: 55px; /* Высота кнопки */
+    
+    /* прозрачные границы */
+    border-color: transparent; 
+    border-style: solid;
+}
+
+.f-oval-demo-button:hover {
+    background-color: #0000c2 !important;
+}
+
+
+
+/* Пикчи первого блока */
+
+
+.f-ramka1 {
+    z-index: 6;
+
+    left: calc(50% - 445px + 28px + 377px + 15px);
+
+    top: 117px;
+    width: 557px;
+
+
+    position: absolute;
+}
+
+
+.f-picture {
+    z-index: 5;
+
+    height: 507px;
+    left: calc(50% - 445px + 28px + 524px + 28px);
+
+    top: 142px;
+    width: 234px;
+
+    position: absolute;
+}
+
+
+.f-ramka2 {
+    z-index: 8;
+
+    left: calc(50% - 445px + 28px + 530px + 15px);
+
+    top: 26px;
+    width: 704px;
+
+
+    position: absolute;
+}
+
+.f-picture2 {
+    z-index: 7;
+
+    /* height: 507px; */
+    left: calc(50% - 445px + 28px + 727px + 22px);
+
+    top: 57px;
+    width: 296px;
+
+    position: absolute;
+}
+
+
+/* Блуры первого блока */
+
+.f-blur-block {
+    left: calc(50% - 475px + 28px + 20px + 22px);
+    top: 20px;
+
+    height: 920px;
+    width: 1320px;    
+
+    overflow: hidden;
+
+    position: absolute;
+}
+
+.f-blur1 {
+    z-index: 1;
+
+    overflow: hidden;
+    
+    width: 1620px;    
+    
+
+    filter: blur(50px);
+    position: absolute;
+}
+
+
+.f-back1 {
+    z-index: 3;
+
+    width: 191px;
+    left: calc(50% - 475px + 28px + 920px + 12px);
+    top: 361px;
+    height: 161px;
+
+    filter: blur(52px);
+
+    background-color: #15ff0d;
+
+    position: absolute;
+}
+.f-back2 {
+    z-index: 3;
+
+    width: 191px;
+    left: calc(50% - 475px + 28px + 650px + 12px);
+    top: 540px;
+    height: 161px;
+
+    filter: blur(62px);
+
+    background-color: #15ff0d;
+
+    position: absolute;
+}
+
+.second-block {
+    height: 590px;
+    width: 100%;
+    background-color: #ffffff;
+
+
+
+    position: relative;
+}
+
+/* Второй блок */
+
+.s-text {
+
+    top: 45px;
+    left: calc(50% - 759px + 28px + 130px + 15px);
+    width: 1214px;
+
+    position: absolute; 
+
+}
+
+.s-text>p {
+    z-index: 2;
+    color: #5c5c5c;
+    font-size: 45px;
+    font-family: 'Raleway',Arial,sans-serif;
+    font-weight: 700;
+
+    
+}
+
+/* квадраты второго блока */
+
+.s-block1 {
+    left: calc(50% - 760px + 28px + 130px + 15px);
+
+    top: 1115px;  
+    position: absolute;    
+}
+.s-block1>div {
+
+    width: 359px;
+    height: 355px;
+
+    z-index: 3;
+
+    border-width: 0px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    background-position: center center;
+    border-color: #5051f9;
+    border-style: solid;
+    box-shadow: 0px 0px 15px 1px rgba(80,81,249,1);
+
+    position: absolute;    
+}
+.s-block1>div>div {
+    top: 50px;
+    left: 30px;
+    width: 303px;
+
+    line-height: 34px;
+    
+    font-size: 22px;
+    font-family: 'RalewayThin',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+
+    position: absolute;
+}
+.s-block1>div>p {
+    top: 280px;
+    left: 160px;
+
+    z-index: 4;
+
+    transform: rotate(4deg);
+    color: #85ff66;
+    font-size: 100px;
+    font-family: 'TildaSansBlack',Arial,sans-serif;
+    font-weight: 900;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+
+    position: absolute;
+}
+
+
+.s-block2 {
+
+    left: calc(50% - 349px + 28px + 130px + 15px);
+
+    top: 1115px;  
+    position: absolute;    
+}
+.s-block2>div {
+
+    width: 359px;
+    height: 355px;
+
+    z-index: 3;
+
+    border-width: 0px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    background-position: center center;
+    border-color: #5051f9;
+    border-style: solid;
+    box-shadow: 0px 0px 15px 1px rgba(80,81,249,1);
+
+    position: absolute;    
+}
+.s-block2>div>div {
+    top: 50px;
+    left: 30px;
+    width: 303px;
+
+    line-height: 34px;
+    
+    font-size: 22px;
+    font-family: 'RalewayThin',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+
+    position: absolute;
+}
+.s-block2>div>p {
+    top: 280px;
+    left: 160px;
+
+    z-index: 4;
+
+    transform: rotate(4deg);
+    color: #85ff66;
+    font-size: 100px;
+    font-family: 'TildaSansBlack',Arial,sans-serif;
+    font-weight: 900;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+
+    position: absolute;
+}
+
+
+.s-block3 {
+    left: calc(50% - 340px + 28px + 537px + 15px);
+
+    top: 1115px;  
+    position: absolute;    
+}
+.s-block3>div {
+
+    width: 359px;
+    height: 355px;
+
+    z-index: 3;
+
+    border-width: 0px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    background-position: center center;
+    border-color: #5051f9;
+    border-style: solid;
+    box-shadow: 0px 0px 15px 1px rgba(80,81,249,1);
+
+    position: absolute;    
+}
+.s-block3>div>div {
+    top: 50px;
+    left: 30px;
+    width: 303px;
+
+    line-height: 34px;
+    
+    font-size: 22px;
+    font-family: 'RalewayThin',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+
+    position: absolute;
+}
+.s-block3>div>p {
+    top: 280px;
+    left: 160px;
+
+    z-index: 4;
+
+    transform: rotate(4deg);
+    color: #85ff66;
+    font-size: 100px;
+    font-family: 'TildaSansBlack',Arial,sans-serif;
+    font-weight: 900;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+
+    position: absolute;
+}
+
+
+/* Третье окно */
+
+.third-block {
+    height: 1500px;
+    width: 100%;
+
+    position: relative;
+}
+
+.th-block {
+    
+    height: 440px;
+    z-index: 1;
+
+    left: calc(50% - 1125px + 28px + 130px + 15px);
+    
+
+    background-color: #5051f9;
+    position: absolute;
+}
+
+.th-text-block>p {
+    top: 190px;
+    left: 341.5px;
+    width: 1214px;
+
+    text-align: center;
+    
+
+    font-size: 45px;
+    font-family: 'Raleway',Arial,sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+
+
+    position: absolute;
+}
+
+
+.th-block-2 {
+    top: 440px;
+
+    height: 1060px;
+    width: 100%;
+
+    background-color: #5051f9;
+    overflow: visible;
+    
+    position: absolute;
+}
+
+.th-pic-block {
+    z-index: 3;
+
+    left: 284.5px;
+    top: 80px;
+    width: 1335px;
+
+    
+
+    position: absolute;
+}
+
+.th-pic-1 {
+    
+
+    height: 900px;
+    width: 1345px;
+
+    overflow: hidden;
+
+    position: absolute;
+}
+.th-pic-1>img {
+
+    left: -808.5px;
+    top: -115px;
+
+    width: 1645px;
+    transform: rotate(21deg);
+
+    position: absolute;
+}
+
+
+.th-pic-2>img {
+    left: 265.5px;
+    top: 528px;
+    width: 219px;
+
+    position: absolute;
+}
+
+.th-pic-3>img {
+    z-index: 4;
+    left: 1421.5px;
+    top: 125px;
+    width: 125px;
+
+    transform: rotate(15deg);
+
+    position: absolute;
+}
+.th-pic-4>img {
+    z-index: 4;
+
+    left: 321.5px;
+    top: 765px;
+    width: 112px;
+
+    transform: rotate(344deg);
+
+    position: absolute;
+}
+.th-pic-5>img {
+    z-index: 4;
+
+    left: 492.5px;
+    top: 738px;
+    width: 51px;
+
+    transform: rotate(41deg);
+
+    position: absolute;
+
+}
+.th-pic-6>img {
+    left: 465.5px;
+    top: 682px;
+    width: 25px;
+
+    transform: rotate(41deg);
+    
+    position: absolute;
+}
+
+.th-pic-7>img {
+    left: 1351.5px;
+    top: 225px;
+    width: 58px;
+
+    transform: rotate(332deg);
+
+    position: absolute;
+}
+
+.th-pic-8>img {
+    z-index: 4;
+    left: 465.5px;
+    top: 682px;
+    width: 25px;
+
+    transform: rotate(41deg);
+    position: absolute;
+}
+
+.th-pic-9>img {
+    z-index: 4;
+    left: 1351.5px;
+    top: 225px;
+    width: 58px;
+
+    transform: rotate(332deg);
+    position: absolute;
+}
+
+.th-pic-10>img {
+    z-index: 4;
+
+    left: 1476.5px;
+    top: 270px;
+    width: 37px;
+
+    transform: rotate(5deg);
+    position: absolute;
+}
+
+.th-pic-11>img {
+    z-index: 4;
+
+    left: 371.5px;
+    top: 20px;
+    width: 140px;
+
+    transform: rotate(315deg);
+    position: absolute;
+}
+
+.th-pic-12>img {
+    z-index: 4;
+    left: 1461.5px;
+    top: 655px;
+    width: 150px;
+
+
+    transform: rotate(65deg);
+    position: absolute;
+}
+
+.t-oval-reg-button {
+    z-index: 4;
+
+    top: 167px;
+    left: 1211.5px;
+    width: 200px;
+    height: 55px;
+
+
+    position: absolute;
+}
+
+.th-oval-button {
+    /* Изменения в тексте */
+    font-size: 14px;
+    font-family: 'Arial',Arial,sans-serif;
+    font-weight: 600;
+
+    /* Регистрационная кнопка */
+    background-color: #5051f9 !important;
+    font-weight: bold;
+    color: #ffffff;
+
+    border-color: none;
+    border-radius: 50px; /* Устанавливаем радиус для создания овальной формы */
+    width: 198px; /* Ширина кнопки */
+    height: 55px; /* Высота кнопки */
+    border-color: transparent;
+    border-style: solid;
+    
+}
+
+.th-oval-button:hover {
+    background-color: #ffffff !important;
+    color: #000000;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.t-button1>div {
+    z-index: 4;
+    width: 161px;
+    left: 311.5px;
+    top: 207px;
+    height: 40px;
+
+    border-radius: 10px;
+    background-color: #5051f9;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+
+    position: absolute;
+}
+.t-button1>p {
+    top: 206px;
+    left: 321.5px;
+    width: 223px;
+    color: #ffffff;
+    z-index: 5;
+
+    position: absolute;
+    line-height: 39px;
+
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Raleway',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 700;
+    
+
+
+    position: absolute;
+}
+
+.t-button2>div {
+    z-index: 4;
+
+    width: 266px;
+    left: 285.5px;
+    top: 259px;
+    height: 40px;
+
+    border-radius: 10px;
+    background-color: #5051f9;    
+
+    position: absolute;
+}
+.t-button2>p {
+    z-index: 5;
+
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Raleway',Arial,sans-serif;
+    font-weight: 700;
+
+    top: 260px;
+    left: 294.5px;
+    width: 265px;
+
+    position: absolute;
+}
+
+.t-button3>div {
+    width: 160px;
+    left: 1406.5px;
+    top: 561px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #5051f9;
+
+    z-index: 4;
+    position: absolute;
+}
+
+.t-button3>p {
+    top: 561px;
+    left: 1421.5px;
+    width: 245px;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Raleway',Arial,sans-serif;
+    font-weight: 700;
+
+    z-index: 5;
+    position: absolute;
+}
+
+
+
+.t-button4>div {
+    width: 245px;
+    left: 1342.5px;
+    top: 615px;
+    height: 40px;
+
+    border-radius: 10px;
+    background-color: #5051f9;
+
+    z-index: 4;
+    position: absolute;
+}
+
+.t-button4>p {
+    top: 616px;
+    left: 1352.5px;
+    width: 400px;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Raleway',Arial,sans-serif;
+    font-weight: 700;
+
+    z-index: 5;
+    position: absolute;
+}
+
+
+.t-button5>div {
+    width: 324px;
+    left: 1348.5px;
+    top: 508px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #5051f9;
+
+    z-index: 4;
+    position: absolute;
+}
+
+.t-button5>p {
+    top: 510px;
+    left: 1361.5px;
+    width: 400px;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Raleway',Arial,sans-serif;
+    font-weight: 700;
+
+    z-index: 5;
+    position: absolute;
+}
+
+.t-blur-l {
+    left: 511.5px;
+    top: 160px;
+
+    overflow: hidden;
+
+    height: 900px;
+    width: 1390px;
+
+    position: absolute;
+}
+
+.t-blur-l>img {
+    
+    width: 1645px;
+
+    transform: rotate(21deg);    
+    
+    position: absolute;
+}
+
+
+
+.background-footer {
+    height: 230px;
+    width: 100%;
+    
+    background-color: #302e2e;
+
+
+    position: relative;
+}
+
+.footer-between-layer {
+
+    left: calc(50% - 1125px + 28px + 130px + 15px);
+
+
+    position: absolute;
+}
+
+
+.foot-text1 {
+    top: 104px;
+    left: 692.5px;
+    width: 271px;
+    color: #808080;
+    z-index: 2;
+
+
+    position: absolute;
+
+}
+.foot-text1>p{
+    color: #808080;
+    font-size: 22px;
+    font-family: 'Raleway',Arial,sans-serif;
+    font-weight: 900;
+}
+.foot-pic1 {
+    left: 802.5px;
+    top: 73px;
+    width: 81px;
+    
+
+    position: absolute;
+}
+.foot-pic1>img {
+    top: 96px;
+    left: 419.5px;
+    width: 184px;
+
+    max-width: 80px;
+}
+
+.foot-text2 {
+    top: 96px;
+    left: 419.5px;
+    width: 184px;    
+
+    position: absolute;
+}
+.foot-text2>p {
+    color: #5051f9;
+    font-size: 30px;
+    font-family: 'Raleway',Arial,sans-serif;
+    font-weight: 900;
+}
+
+.foot-text3 {
+    top: 142px;
+    left: 419.5px;
+    width: 270px;
+
+    position: absolute;
+}
+
+.foot-text3>p {
+    color: #575757;
+    font-size: 20px;
+    font-family: 'TildaSans',Arial,sans-serif;
+    
+    font-weight: 400;
+
+}
+
+.foot-text4 {
+    top: 110px;
+    left: 924.5px;
+    width: 167px;
+
+    position: absolute;
+}
+.foot-text4>a {
+    color: #b3b3b3;
+    font-size: 18px;
+    font-family: 'RalewayExtraLight',Arial,sans-serif;
+    font-weight: 400;
+
+
+}
+
+.foot-text5 {
+    top: 111px;
+    left: 1111.5px;
+    width: 162px;
+
+    position: absolute;
+}
+.foot-text5>a {
+    color: #b3b3b3;
+    font-size: 18px;
+    font-family: 'RalewayExtraLight',Arial,sans-serif;
+    font-weight: 400;
+
+}
+
+.foot-text6 {
+    top: 110px;
+    left: 1299.5px;
+    width: 140px;
+
+    position: absolute;
+}
+.foot-text6>a {
+    color: #b3b3b3;
+    font-size: 18px;
+    font-family: 'RalewayExtraLight',Arial,sans-serif;
+    font-weight: 400;
+}
+
+/* финальная кнопка */
+
+.material-symbols-outlined {
+    color: white;
+    text-decoration: none;
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 22px;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'liga';
+}
+
+.help-btn {
+    z-index: 111111111;
+
+    -webkit-box-shadow: 10px 11px 52px -6px rgba(0,0,0,0.53);
+    -moz-box-shadow: 10px 11px 52px -6px rgba(0,0,0,0.53);
+    border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    transition: all .2s linear;
+    background: #5051F9!important;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+}
+
+.help-btn:hover {
+    background-color: #5051f9;
+}
+
+
+@keyframes slide-in-out {
+    0% {
+        transform: translateX(75%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.text-anim {
+    z-index: 26;
+    position: absolute;
+    top: 1416px;
+    width: 3457px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.moving-text {
+    color: #ffffff;
+    font-size: 71px;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-weight: 900;
+    display: inline-block;
+    animation: slide-in-out 50s infinite linear;
+}
